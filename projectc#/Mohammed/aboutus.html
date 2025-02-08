@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <!-- basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <!-- site metas -->
+    <title>About Us</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <!-- Tweaks for older IEs -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            padding: 15px 0;
+        }
+
+            .header nav ul {
+                margin-top: 10px;
+            }
+
+
+        .footer h3 {
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .btn-subscribe {
+            background-color: black !important;
+            color: white !important;
+        }
+    </style>
+
+
+
+</head>
+<body class="main-layout home_page">
+    <form id="form1" runat="server">
+        <!-- loader -->
+        <div class="loader_bg">
+            <div class="loader"><img src="images/loading.gif" alt="Loading..." /></div>
+        </div>
+        <!-- end loader -->
+        <!-- header -->
+        <header>
+            <div class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                            <div class="full">
+                                <div class="center-desk">
+                                    <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="Logo" /></a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                            <div class="menu-area">
+                                <div class="limit-box">
+                                    <nav class="main-menu">
+                                        <ul class="menu-area-main">
+                                            <li class="active"> <a href="index.html">Home</a> </li>
+                                            <li> <a href="aboutus.html">About us</a> </li>
+                                            <!--<li><a href="books.aspx">Our Books</a></li>
+                                        <li><a href="library.aspx">Library</a></li>-->
+                                            <li><a href="contact.html">Contact us</a></li>
+                                            <!--<%--
+                                        <li class="mean-last"> <a href="login.aspx"><img src="images/top-icon.png" alt="#" /></a> </li>--%>-->
+
+
+                                            <li> <a href="register.aspx" style="background-color:darkred; ">Register</a> </li>
+                                            <li> <a href="login.aspx" style="background-color:darkred; ">login </a> </li>
+
+                                            <br />
+
+
+
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+        <!-- slider_section -->
+        <!--<section class="slider_section">
+        <div id="myCarousel" class="carousel slide banner-main" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="first-slide" src="images/banner.jpg" alt="First slide">
+                    <div class="container">
+                        <div class="carousel-caption relative">
+                            <h1>The Best Libraries That<br> Every Book Lover Must<br> Visit!</h1>
+                            <p>adipiscing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation </p>
+                            <div class="button_section"> <a class="main_bt" href="#">Read More</a>  </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="second-slide" src="images/banner.jpg" alt="Second slide">
+                    <div class="container">
+                        <div class="carousel-caption relative">
+                            <h1>The Best Libraries That<br> Every Book Lover Must<br> Visit!</h1>
+                            <p>adipiscing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation </p>
+                            <div class="button_section"> <a class="main_bt" href="#">Read More</a>  </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="third-slide" src="images/banner.jpg" alt="Third slide">
+                    <div class="container">
+                        <div class="carousel-caption relative">
+                            <h1>The Best Libraries That<br> Every Book Lover Must<br> Visit!</h1>
+                            <p>adipiscing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation </p>
+                            <div class="button_section"> <a class="main_bt" href="#">Read More</a>  </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>-->
+        <!-- about -->
+        <br> <br> <br>
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <div class="aboutheading">
+                            <h2>About <strong class="black">Us</strong></h2>
+                            <span>Welcome to Memorial Library, where knowledge meets comfort!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row border">
+                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                        <div class="about-box">
+                            <p>
+                                Welcome to Memorial Library, a modern space designed for book lovers and knowledge seekers. Our library offers an easy and efficient book reservation system, along with room booking services for studying and meetings.
+
+                                We believe that knowledge should be accessible to everyone, which is why we provide a diverse collection of books across various fields, as well as quiet and comfortable spaces to help you focus and be productive. Whether you're a student looking for a study spot or an avid reader exploring new worlds, our library is here to serve you.
+
+                                Visit us today and enjoy a unique experience that blends culture and comfort!
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                        <div class="about-box">
+                            <figure><img src="images/about.png" alt="img" /></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end about -->
+        <!-- Library -->
+        <div class="Library">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <div class="titlepage">
+                            <h2>Our <strong class="black">Library </strong></h2>
+                            <span>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <div class="Library-box">
+                                <figure><img src="images/Library-.jpg" alt="#" /></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="read-more">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end Library -->
+        <!-- footer -->
+        <footer>
+            <div class="footer bg-dark text-white py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <h3>Follow Us</h3>
+                            <ul class="list-unstyled d-flex gap-3">
+                                <li><a href="#"><img src="icon/facebook.png" alt="Facebook"></a></li>
+                                <li><a href="#"><img src="icon/Twitter.png" alt="Twitter"></a></li>
+                                <li><a href="#"><img src="icon/linkedin.png" alt="LinkedIn"></a></li>
+                                <li><a href="#"><img src="icon/instagram.png" alt="Instagram"></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <h3>Contact Us</h3>
+                            <p><strong>Phone:</strong> 0777077970</p>
+                            <p><strong>Email:</strong> info@memorialbooks.com</p>
+                            <p><strong>Address:</strong> 123 Library St, Amman, Jordan</p>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <h3>Newsletter</h3>
+                            <p>Subscribe to get the latest updates.</p>
+
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Enter your email" aria-label="Email">
+                                <div class="input-group-append">
+                                    <button class="btn btn-subscribe" type="submit">Subscribe</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row mt-4 text-center">
+                        <div class="col-12">
+                            <p class="mb-0">&copy; 2025 All Rights Reserved | <a href="index.html" class="text-white">Memorial Books</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </form>
+    <!-- Javascript files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
+

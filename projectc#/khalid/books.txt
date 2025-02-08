@@ -1,0 +1,22 @@
+2|Atomic Habits|James Clear|Psychology|81ANaVZk5LL.jpg|available
+3|The Power of Habit|Charles Duhigg|Psychology|habits.jpg|available
+4|The 48 Laws of Power|Robert Greene|Psychology|PowerOfHabits.jpg|available
+5|Grit: The Power of Passion and Perseverance|Angela Duckworth|Psychology|PowerOfPassion.jpg|available
+6|C# in Depth|Jon Skeet|Programming|cSharp.jpg|available
+7|The Pragmatic Programmer|Andrew Hunt & David Thomas|Programming|paramitic.jpg|available
+8|You Don�t Know JS|Kyle Simpson|Programming|JS.jpg|borrowed
+9|Eloquent JavaScript|Marijn Haverbeke|Programming|JS2.jpg|available
+10|Design Patterns: Elements of Reusable Object-Oriented Software|Gang of Four|Programming|DesignPattern.jpg|available
+11|Influence: The Psychology of Persuasion|Robert Cialdini|Marketing|influnce.jpg|available
+12|Building a StoryBrand|Donald Miller|Marketing|Bulding.jpg|available
+13|This Is Marketing|Seth Godin|Marketing|ThisMarketing.jpg|available
+14|Contagious: How to Build Word of Mouth in the Digital Age|Jonah Berger|Marketing|congratus.jpg|available
+15|Made to Stick: Why Some Ideas Survive and Others Die|Chip Heath & Dan Heath|Marketing|madeToSick.jpg|available
+16|Rich Dad Poor Dad|Robert Kiyosaki|Finance|richdad.jpg|available
+17|The Intelligent Investor|Benjamin Graham|Finance|intelligent.jpg|available
+18|The Psychology of Money|Morgan Housel|Finance|physMoney.jpg|available
+19|I Will Teach You to Be Rich|Ramit Sethi|Finance|teachYouRich.jpg|available
+20|The Millionaire Fastlane|MJ DeMarco|Finance|Miltones.jpg|available
+21|Financial Freedom|Grant Sabatier|Finance|FinanicalFreedom.jpg|available
+22|Mohamad|Mohamad|pROG|51E2055ZGUL._AC_UF1000,1000_QL80_.jpg|available
+1001|5|Khalid|prog|FlagofJordan.jpg|available
